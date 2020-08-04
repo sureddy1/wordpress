@@ -15,7 +15,7 @@ To deploy wordpress with Azure database for MySQL, use below links.
 [![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsureddy1%2F101-azure-app-service-linux-wordpress%2Fmaster%2Fazuredeploy.json)
 [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fsureddy1%2F101-azure-app-service-linux-wordpress%2Fmaster%2Fazuredeploy.json)
 
-Next Steps:
+# Next Steps:
 
 Once you deploy and install wordpress on your site, please configure these two wordpress plugins: 
 
