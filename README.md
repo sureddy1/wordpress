@@ -22,6 +22,6 @@ Once you deploy and install wordpress on your site, please configure these two w
 - nginx helper
 - redis object cache
 
-nginx helper purges FastCGI cache whenever an update a post/page is made.
+nginx helper purges FastCGI cache whenever an update to a post/page/comment is made.
 
 Redis object cache helps with caching database objects and connects to local redis server running on port 6379.
