@@ -10,9 +10,8 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '501bd84e-02f6-4424-a92d-224b8fc7af2c'
-  imageRepository: 'wordpress'
-  containerRegistry: 'usidsrsucr.azurecr.io'
+  imageRepository: 'sureddy1/wordpress'
+  containerRegistry: 'DockerHub'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: 'php7.4-fpm-nginx'
   
@@ -29,11 +28,11 @@ stages:
       vmImage: $(vmImageName)
     steps:
     - task: Docker@2
-      displayName: Build and push an image to container registry
+      displayName: Build and push wordpress image to dockerhub
       inputs:
         command: buildAndPush
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
-        containerRegistry: $(dockerRegistryServiceConnection)
+        containerRegistry: $(containerRegistry)
         tags: |
           $(tag)
