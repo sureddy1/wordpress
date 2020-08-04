@@ -10,7 +10,9 @@ WordPress image based on oryx php-fpm image. Additional components and customiza
 - Install and configure wordpress 5.4.2
 - WP core is in /var/www/html and wp-content is on /home/site/wwwroot.
 
-Please use https://github.com/sureddy1/101-azure-app-service-linux-wordpress to deploy wordpress with Azure database for MySQL.
+To deploy wordpress with Azure database for MySQL.
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsureddy1%2F101-azure-app-service-linux-wordpress%2Fmaster%2Fazuredeploy.json)
+[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fsureddy1%2F101-azure-app-service-linux-wordpress%2Fmaster%2Fazuredeploy.json)
 
 Next Steps:
 
