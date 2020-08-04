@@ -1,4 +1,4 @@
-# wordpress
+# WordPress using oryx php-fpm image with FastCGI Cache and optimizations.
 
 WordPress image based on oryx php-fpm image. Additional components and customization include:
 
